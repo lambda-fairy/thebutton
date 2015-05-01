@@ -1,0 +1,12 @@
+[Unit]
+Description=Button Presser MMXV
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u /home/chris/dev/thebutton/thebutton.py
+StandardOutput=journal
+WorkingDirectory=/home/chris/dev/thebutton
+User=chris
+
+[Install]
+WantedBy=multi-user.target
