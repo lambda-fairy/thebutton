@@ -32,7 +32,7 @@ Run the script:
 
     $ python3 thebutton.py
 
-By default, the script presses at 1 s. To change this limit, open up the script and edit the `TARGET` variable.
+By default, the script presses at 1 second. To change this limit, open up the script and edit the `TARGET` variable.
 
 
 ## Integrating with systemd
